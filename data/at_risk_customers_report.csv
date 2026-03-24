@@ -1,0 +1,6 @@
+Customer_ID,Age,Total_Spend,Months_Active,Churned,Churn_Risk_Probability (%)
+C102,45,85.0,2,1,100.0
+C104,50,45.0,1,1,100.0
+C106,38,120.0,5,1,84.0
+C108,22,60.0,3,1,86.0
+C110,48,90.0,4,1,100.0
