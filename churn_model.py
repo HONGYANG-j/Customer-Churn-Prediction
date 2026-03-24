@@ -4,7 +4,7 @@ import google.generativeai as genai
 import os
 
 # 1. Initialize the AI Brain (REPLACE WITH YOUR ACTUAL API KEY)
-GOOGLE_API_KEY = "AIzaSyB3ze2WPRSaV705MSXD_kVa-pCd_PoOf5o" 
+GOOGLE_API_KEY = os.environ.get("GOOGLE_API_KEY") 
 genai.configure(api_key=GOOGLE_API_KEY)
 # Using the advanced Gemini model
 model_llm = genai.GenerativeModel('gemini-2.5-flash')
