@@ -14,3 +14,5 @@ A predictive Machine Learning model (Random Forest) that analyzes historical cus
 * **Algorithm:** Random Forest Classifier (`scikit-learn`)
 * **Features Used:** Account Tenure, Lifetime Value (LTV), Demographic Data.
 * **Output:** Actionable CSV report with probability risk scoring.
+
+🔒 Security Note: This application requires a Google Gemini API Key. To run it locally, please set your environment variable: export GOOGLE_API_KEY="your_api_key_here".
